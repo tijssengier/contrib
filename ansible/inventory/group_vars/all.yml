@@ -29,7 +29,7 @@ ansible_ssh_user: root
 
 # password for the ansible_ssh_user. If this is unset you will need to set up
 # ssh keys so a password is not needed.
-ansible_ssh_pass: Azerty123!
+#ansible_ssh_pass: Azerty123!
 
 # If a password is needed to sudo to root that password must be set here
 #ansible_sudo_pass: password

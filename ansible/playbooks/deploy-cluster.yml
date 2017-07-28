@@ -8,7 +8,7 @@
   roles:
     - ../roles/pre-ansible
   tags:
-    - ../../pre-ansible
+    - pre-ansible
 
 # Install etcd
 - include: deploy-etcd.yml

@@ -2,7 +2,7 @@
 - hosts: masters
   become: yes
   roles:
-    - kubernetes-addons
+    - ../roles/kubernetes-addons
   tags:
     - addons
     - dns

@@ -3,7 +3,7 @@
   hosts: etcd
   sudo: yes
   roles:
-    - etcd
+    - ../roles/etcd
   tags:
     - etcd
 

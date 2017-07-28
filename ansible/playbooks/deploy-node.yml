@@ -3,7 +3,7 @@
   hosts: nodes
   become: yes
   roles:
-    - node
+    - ../roles/node
   tags:
     - nodes
 

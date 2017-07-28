@@ -6,7 +6,7 @@
   gather_facts: false
   become: yes
   roles:
-    - ../../pre-ansible
+    - ../roles/pre-ansible
   tags:
     - ../../pre-ansible
 

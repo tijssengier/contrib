@@ -3,7 +3,7 @@
   hosts: masters
   become: yes
   roles:
-    - { role: etcd-certs, when: apiserver_etcd_use_certs|default(false) }
+    - { role: ../roles/etcd-certs, when: apiserver_etcd_use_certs|default(false) }
     - ../roles/master
   tags:
     - masters
